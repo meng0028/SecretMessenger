@@ -1,0 +1,78 @@
+img.media-object {
+	width: 100%;
+}
+
+#newModal label {
+	float: left;
+	width: 20%;
+	padding: 8px 15px;
+	line-height: 1.1;
+}
+
+textarea {
+	resize: none;
+	border: none;
+}
+
+select {
+	padding: 8px 15px;
+	font-size: 17px;
+	width: 75%;
+	background-color: #dddddd;
+	box-shadow: none;
+	border: none;
+}
+
+.msg {
+	padding: 4px;
+	text-align: center;
+	margin: 2px 0;
+	opacity: 0;
+	z-index: 999;
+}
+
+.error {
+	background-color: white;
+	color: red;
+}
+
+.warning {
+	background-color: black;
+	color: yellow;
+}
+
+.load {
+	opacity: 1;
+	transition: opacity 0.5s ease-out;
+}
+
+.hidden {
+	display: none;
+}
+
+.bar {
+	height: 60px;
+	padding-top: 20px;
+}
+
+.bar-nav~.content {
+	padding-top: 62px;
+}
+
+#loginModal a {
+	text-align: center;
+	display: block;
+}
+
+#fromUser {
+	float: left;
+	padding: 8px 15px;
+	line-height: 1.1;
+}
+
+#userMsg {
+	float: left;
+	padding: 8px 15px;
+	height: 15%;
+	width: 95%
+}
